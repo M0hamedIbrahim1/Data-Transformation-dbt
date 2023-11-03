@@ -1,0 +1,21 @@
+sources:
+    - name: stg_SALES
+      database: AMAZON
+      schema: SALES
+      tables:
+          - name: CUSTOMERS
+          - name: ORDERS
+          - name: ORDER_ITEMS  
+          - name: STAFFS
+          - name: STORES   
+
+    - name: stg_production
+      database: AMAZON
+      schema: PRODUCTION
+      tables:
+          - name: BRANDS
+          - name: CATEGORIES
+          - name: PRODUCTS  
+          - name: STOCKS
+
+
